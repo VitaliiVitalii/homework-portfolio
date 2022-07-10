@@ -5,149 +5,34 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Resume_Homework</title>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/reset.css">
 </head>
 <body>
     <header class="header">
-        <nav class="nav-menu">
-            <ul class="nav-menu__items">
-                <li> 
-                    <a href="#">Home</a> 
-                </li>
-                <li> 
-                    <a href="#">About me</a> 
-                </li>
-                <li> 
-                    <a href="#">Skills</a> 
-                </li>
-                <li> 
-                    <a href="#">Portfolio</a> 
-                </li>
-                <li> 
-                    <a href="#">Contacts</a> 
-                </li>
-            </ul>
-        </nav>
+        <div class="conteiner">
+            <nav class="nav-menu">
+                <ul class="nav-menu__items">
+                    <li>
+                        <a class="menu_link" href ="#">Home</a>
+                    </li>
+                    <li>
+                        <a class="menu_link" href="#">About me</a>
+                    </li>
+                    <li>
+                        <a class="menu_link"  href="#">Skills</a>
+                    </li>
+                    <li>
+                        <a class="menu_link" href="#">Portfolio</a>
+                    </li>
+                    <li>
+                        <a class="menu_link" href="#">Contacts</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
     </header>
-    <main class="main">
-        <section class="hero">
-            <h1 class="hero__title">Denis Novik</h1>
-            <img class="hero__banner" src="./img/Baner.jpg" alt="Baner" title="Baner">
-        </section>
-        <section class="about">
-            <h3 class="subtitle">About me</h3>
-            <div class="about__text">
-                <p>Hi, I'm Denis – UX/UI designer from Minsk.
-                I'm interested in design and everything connected with it.</p>
-                <p>I'm studying at courses "Web and mobile design
-                interfaces" in IT-Academy.</p>
-                <p>Ready to implement excellent projects
-                with wonderful people.</p>
-            </div>
-        </section>
-        <section class="skills">
-            <h3 class="subtitle">Skills</h3>
-            <p class="skills__text">I work in such programs as</p>
-            <div class="skills__row">
-                <div class="skills__column">
-                    <div class="item-skills">
-                        <div class="item-skills__icon"><img src="./img/icon/Ps.png" alt="Ps_icon"></div>
-                        <p class="item-skills__title">Adobe Photoshop</p>
-                        <div class="item-skills__rating">
-                            <span><img src="./img/icon/black_star.png" alt="black_star"></span>
-                            <span><img src="./img/icon/black_star.png" alt="black_star"></span>
-                            <span><img src="./img/icon/Empty_star.png" alt="empty_star"></span>
-                            <span><img src="./img/icon/Empty_star.png" alt="empty_star"></span>
-                            <span><img src="./img/icon/Empty_star.png" alt="empty_star"></span>
-                        </div>
-                    </div>
-                    <div class="item-skills">
-                        <div class="item-skills__icon"><img src="./img/icon/Ai.png" alt="Ai_icon"></div>
-                        <p class="item-skills__title">Adobe Illustrator</p>
-                        <div class="item-skills__rating">
-                            <span><img src="./img/icon/black_star.png" alt="black_star"></span>
-                            <span><img src="./img/icon/black_star.png" alt="black_star"></span>
-                            <span><img src="./img/icon/black_star.png" alt="black_star"></span>
-                            <span><img src="./img/icon/Empty_star.png" alt="empty_star"></span>
-                            <span><img src="./img/icon/Empty_star.png" alt="empty_star"></span>
-                        </div>
-                    </div>
-                    <div class="item-skills">
-                        <div class="item-skills__icon"><img src="./img/icon/Ae.png" alt="Ae_icon"></div>
-                        <p class="item-skills__title">Adobe After Effects</p>
-                        <div class="item-skills__rating">
-                            <span><img src="./img/icon/black_star.png" alt="black_star"></span>
-                            <span><img src="./img/icon/black_star.png" alt="black_star"></span>
-                            <span><img src="./img/icon/black_star.png" alt="black_star"></span>
-                            <span><img src="./img/icon/black_star.png" alt="black_star"></span>
-                            <span><img src="./img/icon/Empty_star.png" alt="empty_star"></span>
-                        </div>
-                    </div>
-                    <div div class="item-skills">
-                        <div class="item-skills__icon"><img src="./img/icon/Figma.png" alt="Figma_icon"></div>
-                        <p class="item-skills__title">Adobe Photoshop</p>
-                        <div class="item-skills__rating">
-                            <span><img src="./img/icon/black_star.png" alt="black_star"></span>
-                            <span><img src="./img/icon/black_star.png" alt="black_star"></span>
-                            <span><img src="./img/icon/black_star.png" alt="black_star"></span>
-                            <span><img src="./img/icon/black_star.png" alt="black_star"></span>
-                            <span><img src="./img/icon/black_star.png" alt="black_star"></span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="portfolio">
-            <h3 class="subtitle">Portfolio</h3>
-            <div class="sample-work">
-                <div class="sample-work_image">
-                    <img src="./img/Online fashion store.png" alt="Store_Homepage">
-                </div>
-                <p class="sample-work__text">Online fashion store - Homepage</p>
-            </div>
-            <div class="sample-work">
-                <div class="sample-work_image">
-                    <img src="./img/reebok_web.png" alt="Reebok_concept">
-                </div>
-                <p class="sample-work__text">Reebok Store - Concept</p>
-            </div>
-            <div class="sample-work">
-                <div class="sample-work_image">
-                    <img src="./img/braun-landing.png" alt="Braun_lending">
-                </div>
-                <p class="sample-work__text">Braun Landing Page - Concept</p>
-            </div>
-        </section>
-    </main>
-    <footer class="footer">
-        <h3 class="subtitle">Contacts</h3>
-        <p class="footer__text">Want to know more or just chat? You are welcome!</p>
-        <div class="footer__button">    
-            <a href="#">Send message</a>
-        </div>
-        <div class="footer__row">
-            <span class="row-item">
-                <a href="#">
-                    <img src="./img/icon/linkedin.png" alt="linkedin">
-                </a>
-            </span>
-            <span class="row-item">
-                <a href="#">
-                    <img src="./img/icon/instagram.png" alt="instagram">
-                </a>
-            </span>
-            <span class="row-item">
-                <a href="#">
-                    <img src="./img/icon/behance.png" alt="behance">
-                </a>
-            </span>
-            <span class="row-item">
-                <a href="#">
-                    <img src="./img/icon/dribbble.png" alt="dribbble">
-                </a>
-            </span>
-        </div>
-        <p class="footer__offer">Like me on LinkedIn, Instagram, Behance, Dribble</p>
-    </footer>
+    
 </body>
 </html>

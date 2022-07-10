@@ -1,55 +1,43 @@
-.header {}
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+}
 
-.nav-menu {}
+.conteiner {
+    width: 970px;
+    margin: 0 auto;
+}
 
-.nav-menu__items {}
+.nav-menu__items {
+    display: flex;
+    justify-content: center;
+    padding: 25px 0 25px 0;
+    position: relative;
+}
 
-.main {}
+.nav-menu__items > li {
+    margin: 0 20px 0 ;
+}
 
-.hero {}
+.menu_link {
+    line-height: 25px;
+    letter-spacing: 0.02em;
+    color: #828282;
+}
 
-.hero__title {}
+.menu_link:hover {
+    color: #070707;
+}
 
-.hero__banner {}
+.nav-menu__items::after {
+    content: '';
+    height: 1px;
+    width: 100%;
+    background-color:  #828282;
+    display: block;
+    position: absolute;
+    bottom: 0;
+}
 
-.about {}
-
-.subtitle {}
-
-.about__text {}
-
-.skills {}
-
-.skills__text {}
-
-.skills__row {}
-
-.skills__column {}
-
-.item-skills {}
-
-.item-skills__icon {}
-
-.item-skills__title {}
-
-.item-skills__rating {}
-
-.portfolio {}
-
-.sample-work {}
-
-.sample-work_image {}
-
-.sample-work__text {}
-
-.footer {}
-
-.footer__text {}
-
-.footer__button {}
-
-.footer__row {}
-
-.row-item {}
-
-.footer__offer {}
