@@ -11,28 +11,150 @@
 </head>
 <body>
     <header class="header">
-        <div class="conteiner">
-            <nav class="nav-menu">
-                <ul class="nav-menu__items">
-                    <li>
-                        <a class="menu_link" href ="#">Home</a>
+        <div class="header__conteiner">
+            <nav class="nav-menu" id="home">
+                <ul class="header__nav-menu-items">
+                    <li class="header__nav-menu-item">
+                        <a class="menu_link" name="Home" href ="#">Home</a>
                     </li>
-                    <li>
-                        <a class="menu_link" href="#">About me</a>
+                    <li class="header__nav-menu-item">
+                        <a class="menu_link" href="#about_me">About me</a>
                     </li>
-                    <li>
-                        <a class="menu_link"  href="#">Skills</a>
+                    <li class="header__nav-menu-item">
+                        <a class="menu_link" href="#skills">Skills</a>
                     </li>
-                    <li>
-                        <a class="menu_link" href="#">Portfolio</a>
+                    <li class="header__nav-menu-item">
+                        <a class="menu_link" href="#portfolio">Portfolio</a>
                     </li>
-                    <li>
-                        <a class="menu_link" href="#">Contacts</a>
+                    <li class="header__nav-menu-item">
+                        <a class="menu_link" href="#contacts">Contacts</a>
                     </li>
                 </ul>
             </nav>
         </div>
     </header>
-    
+    <main class="main">
+        <section class="main__hero">
+            <div class="main__conteiner">
+                <h1 class="main__title">Denis Novik</h1>
+                <img class="main__hero_full-width" src="./img/Baner.jpg" alt="photo">
+            </div>
+        </section>
+        <section class='main__about-me-section' id="about_me">
+            <div class="main__conteiner">
+                <h3 class="main__subtitle subtitle__about-me-section_margin"><a href="#home">About me</a></h3>
+                <p class="main__text main__text_width-first main__text_bottom-padding">Hi, I'm Denis – UX/UI designer from Minsk. I'm interested in design and everything connected with it.</p>
+                <p class="main__text main__text_width-second main__text_bottom-padding">I'm studying at courses "Web and mobile design interfaces" in IT-Academy.</p>
+                <p class="main__text main__text_width main__text_bottom-padding">Ready to implement excellent projects with wonderful people.</p>
+            </div>
+        </section>
+        <section class="main__skills-section" id="skills">
+            <div class="main__conteiner">
+                <h3 class="main__subtitle subtitle__skills-section_margin"><a href="#home">Skills</a></h3>
+                <p class="main__text">I work in such programs as</p>
+                <div class="main__skills-section-rating">
+                    <div class="main__skills-box">
+                        <img src="./img/icon/Ps.png" alt="ps_icon">
+                        <p class="main__skills-box-title">Adobe Photoshop</p>
+                        <div class="main__skills-rating-stars">
+                            <span class="rating-star_black"></span>
+                            <span class="rating-star_black"></span>
+                            <span class="rating-star_empty"></span>
+                            <span class="rating-star_empty"></span>
+                            <span class="rating-star_empty"></span>
+                        </div>
+                    </div>
+                    <div class="main__skills-box">
+                        <img src="./img/icon/Ai.png" alt="ai_icon">
+                        <p class="main__skills-box-title">Adobe Illustrator</p>
+                        <div class="main__skills-rating-stars">
+                            <span class="rating-star_black"></span>
+                            <span class="rating-star_black"></span>
+                            <span class="rating-star_black"></span>
+                            <span class="rating-star_empty"></span>
+                            <span class="rating-star_empty"></span>
+                        </div>
+                    </div>
+                    <div class="main__skills-box">
+                        <img src="./img/icon/Ae.png" alt="ae_icon">
+                        <p class="main__skills-box-title">Adobe After Effects</p>
+                        <div class="main__skills-rating-stars">
+                            <span class="rating-star_black"></span>
+                            <span class="rating-star_black"></span>
+                            <span class="rating-star_black"></span>
+                            <span class="rating-star_black"></span>
+                            <span class="rating-star_empty"></span>
+                        </div>
+                    </div>
+                    <div class="main__skills-box">
+                        <img src="./img/icon/Figma.png" alt="figma_icon">
+                        <p class="main__skills-box-title">Figma</p>
+                        <div class="main__skills-rating-stars">
+                            <span class="rating-star_black"></span>
+                            <span class="rating-star_black"></span>
+                            <span class="rating-star_black"></span>
+                            <span class="rating-star_black"></span>
+                            <span class="rating-star_black"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="main__portfolio-section" id="portfolio">
+            <div class="main__conteiner">
+                <h3 class="main__subtitle subtitle__portfolio_margin"><a href="#home">Portfolio</a></h3>
+                <div class="main__portfolio-exm">
+                    <div class="main__portfolio-exm-box">
+                        <img class="main__portfolio-exp-img" src="./img/Fashion-Store.jpg" alt="fashion_store">
+                        <span class="wrapper-link">
+                            <a class="portfolio-link_style" href="https://www.asos.com/" target="blank">Online fashion store - Homepage</a>
+                        </span>
+                    </div>
+                </div>
+                <div class="main__portfolio-exm">
+                    <div class="main__portfolio-exm-box">
+                        <img class="main__portfolio-exp-img" src="./img/reebok_web.png" alt="reebok_store">
+                        <span class="wrapper-link">
+                            <a class="portfolio-link_style" href="https://www.reebok.in.ua/" target="blank">Reebok Store - Concept</a>
+                        </span>
+                    </div>
+                </div>
+                <div class="main__portfolio-exm">
+                    <div class="main__portfolio-exm-box">
+                        <img class="main__portfolio-exp-img" src="./img/braun-landing.png" alt="braun_store">
+                        <span class="wrapper-link">
+                            <a class="portfolio-link_style" href="https://braun-market.com.ua/" target="blank">Braun Landing Page - Concept</a>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </section>    
+    </main>
+    <footer class="footer">
+        <div class="footer__conteiner">
+            <div class="footer__flex">
+                <h3 class="footer__subtitle" id="contacts"><a href="#home">Contacts</a></h3>
+                <p class="footer__text footer__text_width footer__text_bottom-margin">Want to know more or just chat? You are welcome!</p>
+                <div class="footer__btn-wrapper">
+                    <a class="btn" href="#">Send message</a>
+                </div>
+                <ul class="footer__links-items">
+                    <li class="footer__link-item">
+                        <a href="https://www.linkedin.com/" target="_blank"><img src="./img/social_icon/linkedin.svg" alt="linkedin"></a>
+                    </li>
+                    <li class="footer__link-item">
+                        <a href="https://www.instagram.com/" target="_blank"><img src="./img/social_icon/instagram.svg" alt="instagram"></a>
+                    </li >
+                    <li class="footer__link-item">
+                        <a href="https://www.behance.net/" target="_blank"><img src="./img/social_icon/behance.svg" alt="behance"></a>
+                    </li>
+                    <li class="footer__link-item">
+                        <a href="https://dribbble.com/" target="_blank"><img src="./img/social_icon/dribbble.svg" alt="dribbble"></a>
+                    </li>
+                </ul>
+                <p class="footer__link-items-desc">Like me on LinkedIn, Instagram, Behance, Dribble</p>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
